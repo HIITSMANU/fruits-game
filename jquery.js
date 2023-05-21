@@ -64,7 +64,7 @@ function startaction(){
 
             }
         }
-    },10)
+    },100)
 }
 function choosefruit(){
     $("#fruits1").attr('src','images/'+ fruit[Math.round(8*Math.random())]  +'.png')
